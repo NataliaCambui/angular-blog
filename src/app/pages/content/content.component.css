@@ -1,0 +1,33 @@
+.container__content {
+    padding:20px;
+}
+.container__content-2 {
+    width: 100%;
+    height:500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    border-bottom: 1px solid rgba(80, 79, 79, 0.553);
+    border-left: 1px solid rgba(80, 79, 79, 0.534);
+}
+.content__cover > img{
+    border:5px solid rgb(185, 182, 182);
+    border-radius: 5px;
+    width: 500px;
+    height:300px;
+    min-width: 500px;
+
+}
+
+.content__description {
+    margin-top: 15px;
+}
+.content__description > p{
+    color:rgb(185, 182, 182);
+}
+.content__footer {
+    margin:20px;
+    
+}

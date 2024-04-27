@@ -1,0 +1,30 @@
+.menu__title__container {
+    color:white;
+}
+
+.menu__title__container > h1 {
+    font-size: 200px;  
+    display:flex;
+    justify-content: center;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 20px  rgba(157, 156, 156, 0.534);
+
+}
+.menu__title__container > hr {
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+@keyframes rotate {
+  from {
+      transform: rotateY(0deg); /* Iniciar sem rotação */
+  }
+  to {
+      transform: rotateY(360deg); /* Girar 360 graus */
+  }
+}
+
+/* Aplicando a animação ao título */
+.rotating-title {
+  animation: rotate 15s linear infinite; /* Aplicar a animação 'rotate' por tempo indefinido */
+}
+

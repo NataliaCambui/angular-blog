@@ -1,0 +1,29 @@
+.container__small-card {
+    width: 600px;
+    height: 200px;
+    margin-top: 10px;
+    /* display:flex; */
+}
+.class-container__small-card-content {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding:10px;
+    border-bottom: 1px solid rgba(80, 79, 79, 0.553);
+    border-left: 1px solid rgba(80, 79, 79, 0.534);
+}
+.small-card__photo > img {
+    width:200px;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+
+}
+.small-card__title >h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
